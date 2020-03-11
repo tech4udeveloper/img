@@ -21,5 +21,13 @@
 </head>
 <body>
 	<img src="biker.jpeg" alt="">
+	<script src="jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$("body").on("contextmenu",function(){
+				return false;
+			}); 
+		}); 
+	</script>
 </body>
 </html>
